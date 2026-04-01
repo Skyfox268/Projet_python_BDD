@@ -28,7 +28,7 @@ def changement_perso(equipe):
     equipe.pop(0)
     if len(equipe) > 0:
         nouveau = list(equipe[0].keys())[1]
-        print(f"🔄 {nouveau} entre en combat !")
+        print(f" {nouveau} entre en combat !")
         return True
     else:
         print("💀 Toute votre équipe est éliminée !")
